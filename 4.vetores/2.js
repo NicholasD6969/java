@@ -9,6 +9,7 @@ usuarios.forEach(usuario => {
     console.log(`${usuario.nome}, ${usuario.idade} anos`);
 });
 
+
 console.log('Filtrando usuarios.')
 console.log('Apenas usuarios até 30 anos de idade.');
 const menorQueTrintaAnos = usuarios.filter(usuario => usuario.idade < 30);
